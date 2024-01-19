@@ -50,11 +50,71 @@ public class javaBasics {
         System.out.println("boolean: " + myBoolean);
         System.out.println("String: " + myString);
     //Java Type Casting
-        int a=5;
-        double mydouble = a;
-        System.out.println("Original int value: " + a);
+        int abc=5;
+        double mydouble = abc;
+        System.out.println("Original int value: " + abc);
         System.out.println("Converted double value: " + mydouble);
 
+    //
+        int a = 10;
+        int b = 5;
 
+        // Addition
+        int sum = a + b;
+        System.out.println("Sum: " + sum);
+
+        // Subtraction
+        int difference = a - b;
+        System.out.println("Difference: " + difference);
+
+        // Multiplication
+        int product = a * b;
+        System.out.println("Product: " + product);
+
+        // Division
+        int quotient = a / b;
+        System.out.println("Quotient: " + quotient);
+
+        // Modulus (remainder)
+        int remainder = a % b;
+        System.out.println("Remainder: " + remainder);
+
+
+
+        // ******* relational operators ******
+        int x = 5;
+        int y = 10;
+
+        // Equality
+        System.out.println("Is x equal to y? " + (x == y));
+
+        // Inequality
+        System.out.println("Is x not equal to y? " + (x != y));
+
+        // Greater than
+        System.out.println("Is x greater than y? " + (x > y));
+
+        // Less than
+        System.out.println("Is x less than y? " + (x < y));
+
+        // Greater than or equal to
+        System.out.println("Is x greater than or equal to y? " + (x >= y));
+
+        // Less than or equal to
+        System.out.println("Is x less than or equal to y? " + (x <= y));
+
+        // ***********logical operators ****
+        boolean A = true;
+        boolean B = false;
+
+        // Logical AND
+        System.out.println("Logical AND: " + (A && B));
+
+        // Logical OR
+        System.out.println("Logical OR: " + (A || B));
+
+        // Logical NOT
+        System.out.println("Logical NOT for a: " + !A);
+        System.out.println("Logical NOT for b: " + !B);
     }
 }
