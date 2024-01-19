@@ -24,5 +24,32 @@ public class javaBasics {
         System.out.println("myBool: " + myBool);
         System.out.println("myText: " + myText);
 
+        //Data types
+        // Primitive Data Types
+        byte myByte = 127;
+        short myShort = 32000;
+        int myInt = 123456;
+        long myLong = 1234567890L;
+
+        float myFloat = 3.14f;
+        double myDouble = 3.141592653589793;
+
+        char myChar = 'A';
+        boolean myBoolean = true;
+
+        // Reference Data Types
+        String myString = "Hello, Java!";
+        // Printing values
+        System.out.println("byte: " + myByte);
+        System.out.println("short: " + myShort);
+        System.out.println("int: " + myInt);
+        System.out.println("long: " + myLong);
+        System.out.println("float: " + myFloat);
+        System.out.println("double: " + myDouble);
+        System.out.println("char: " + myChar);
+        System.out.println("boolean: " + myBoolean);
+        System.out.println("String: " + myString);
+
+
     }
 }
