@@ -49,6 +49,11 @@ public class javaBasics {
         System.out.println("char: " + myChar);
         System.out.println("boolean: " + myBoolean);
         System.out.println("String: " + myString);
+    //Java Type Casting
+        int a=5;
+        double mydouble = a;
+        System.out.println("Original int value: " + a);
+        System.out.println("Converted double value: " + mydouble);
 
 
     }
